@@ -1,8 +1,7 @@
 <?php
     require_once('Book.php');
     require_once('Author.php');
-    require_once('Publisher.php');
-   //Route::get('/',function() { echo 'Hello, World!'; });
+    require_once('Publisher.php'); 
    
   Route::get('/', function () { return view('welcome'); });
 
