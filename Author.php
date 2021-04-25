@@ -1,7 +1,7 @@
 <?php
   // file: Professor.php
 
-class author extends Model {
+class Author extends Model {
 
   static $author = [
     ['id'=>1,'author'=>'Abraham Silberschatz','nationality'=>'Israelis / American',
