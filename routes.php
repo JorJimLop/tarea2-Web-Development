@@ -8,7 +8,7 @@
   Route::get('/', function () { return view('welcome'); });
 
  
- Route::resource('author', 'AuthorController');
+ Route::resource('author', 'controllers/AuthorController');
   Route::resource('book', 'BookController');
   Route::resource('publisher', 'PublisherController');
   Route::resource('professor', 'ProfessorController');
