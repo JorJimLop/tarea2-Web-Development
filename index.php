@@ -1,4 +1,4 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,7 +44,6 @@ body {
 <div style="padding-left:16px">  
 
 </div>
--->
 
 <?php
 error_reporting(E_ALL);
@@ -53,10 +52,10 @@ session_start();
 require('PHPFramex.php');
 require('routes.php')
 ?>
-<!--</body>
+</body>
 </html>
  
 
 </body>
-</html>-->
+</html>
 
