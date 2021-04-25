@@ -5,10 +5,13 @@
 
   class BookController extends Controller {
 
+
     public function index() {  
-      return view('books/index',
+      
+    Route::get('book',function() { echo 'HOLA MUNDO!! Tarea 1, Jordan Jiménez López!'; });
+    /*  return view('books/index',
        ['books'=>Book::all(),
-        'title'=>'books List']);
+        'title'=>'books List']);*/
     }
 
     public function show($id) {
