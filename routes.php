@@ -5,12 +5,11 @@
     require_once('Professor.php'); 
     
    
-  Route::get('/', function () { return view('welcome'); });
-
+  Route::get('/', function () { return view('welcome'); }); 
  
- Route::resource('author', 'AuthorController');
-  Route::resource('book', 'BookController');
-  Route::resource('publisher', 'PublisherController');
-  Route::resource('professor', 'ProfessorController');
+ Route::resource('/author', 'AuthorController');
+  Route::resource('/book', 'BookController');
+  Route::resource('/publisher', 'PublisherController');
+  Route::resource('/professor', 'ProfessorController');
     Route::dispatch();
 ?>
