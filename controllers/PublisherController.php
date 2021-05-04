@@ -1,5 +1,5 @@
 <?php
-  // file: controllers/ProfessorController.php
+  // file: controllers/PublisherController.php
 
   require_once('Publisher.php');
 
