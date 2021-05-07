@@ -1,5 +1,4 @@
-<?php
-  // file: controllers/ProfessorController.php
+<?php 
 
   require_once('Author.php');
 
