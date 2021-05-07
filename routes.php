@@ -12,7 +12,7 @@
  
 
  Route::resource('author', 'AuthorController');
-  //Route::resource('book', 'BookController');
+  //¿Route::resource('book', 'BookController');
   Route::resource('publisher', 'PublisherController');
   Route::resource('professor', 'ProfessorController');
     Route::dispatch();

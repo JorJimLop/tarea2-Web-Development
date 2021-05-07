@@ -37,9 +37,9 @@ body {
 
 <div class="topnav">
   <a href="/">Home</a> 
-  <a href="../book">Books</a>
-  <a href="../author">Authors</a>
-  <a href="../publisher">Publishers</a> 
+  <a href="/book">Books</a>
+  <a href="/author">Authors</a>
+  <a href="/publisher">Publishers</a> 
 </div> 
 <div style="padding-left:16px">  
 
